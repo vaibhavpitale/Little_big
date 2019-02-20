@@ -4,9 +4,9 @@
 int main()
 {
 
-    unsigned int a,b;
-    printf("Enter a 5 digit value : ");
-    scanf("%x",&a);
+    unsigned int a=0x12345,b;
+    //printf("Enter a 5 digit value : ");
+    //scanf("%x",&a);
     b=a;
     char *c=(char *)&a;
     unsigned int a1,a2,temp;
