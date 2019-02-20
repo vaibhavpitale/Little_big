@@ -3,9 +3,9 @@
 
 int main()
 {
-
+    int x,y,z;
     unsigned int a=0x12345,b;
-    //printf("Enter a 5 digit value : ");
+    printf("Taking a 5 digit value by default ");
     //scanf("%x",&a);
     b=a;
     char *c=(char *)&a;
@@ -14,7 +14,7 @@ int main()
     a2=a;
     a2=a2>>(24);
     if(a1=a2)
-        printf("The number is 0x%x \nFist stored byte is : 0x%x \nBIG ENDIAN\n",a,a1);
+         printf("The number is 0x%x \nFist stored byte is : 0x%x \nBIG ENDIAN\n",a,a1);
     else
         printf("The number is 0x%x \nFist stored byte is : 0x%x \nLITTLE ENDIAN\n",a,a1);
 
