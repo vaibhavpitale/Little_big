@@ -13,7 +13,7 @@ int main()
     a1=(int)*c;
     a2=a;
     a2=a2>>(24);
-    if(a1==a2)
+    if(a1=a2)
         printf("The number is 0x%x \nFist stored byte is : 0x%x \nBIG ENDIAN\n",a,a1);
     else
         printf("The number is 0x%x \nFist stored byte is : 0x%x \nLITTLE ENDIAN\n",a,a1);
